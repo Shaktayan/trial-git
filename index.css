@@ -1,0 +1,58 @@
+.topdiv{
+    border: 1px solid black;
+    width: 99%;
+    height: 80px;
+    
+}
+.leftdiv{
+    border: 1px solid black;
+    width: 20%;
+    height: 500px;
+   
+}
+.rightdiv{
+    border: 1px solid black;
+    width: 79%;
+    height: 500px;
+}
+#side{
+    display: flex;
+}
+.bottomdiv{
+    border: 1px solid black;
+    width: 99%;
+    height: 80px;
+    float: inline-end;
+}
+.middle{
+    display: grid;
+    grid-template-columns: repeat(2, 1f);
+}
+#child1{
+    border: 1px solid black;
+    width: 90%;
+    height: 80px;
+    margin-top: 20px;
+    margin-left: 5%;
+
+}
+
+#child2{
+    border: 1px solid black;
+    width: 45%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 5%;
+  
+}
+#child3{
+    border: 1px solid black;
+    width: 40%;
+    height: 350px;
+    margin-top: 20px;
+    margin-left: 5%;
+    float: left;
+}
+.middle{
+    display: flex;
+}
